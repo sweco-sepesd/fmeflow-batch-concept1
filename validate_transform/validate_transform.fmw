@@ -1,0 +1,241 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command line to run this workspace:
+#        "C:\Program Files\FME24820\fme.exe" C:\Users\sepesd\projekt\fmesupport\tickets\2396\batchexample\validate_transform\validate_transform.fmw
+#          --DATA_FOLDER ""
+#          --FME_LAUNCH_VIEWER_APP "YES"
+#    
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAACkCAIAAAA2Qe+UAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAJ/ElEQVR4nO3ca3BU5RnA8efsJdnNJuRODKtILqBgAoFBsaB1WkBwtLQCU8fW1rGdzgh+sdMixVqtOrUjH2w/yeh02lLtdMaKMzp2vIyKKepEwgQwkUwSEqCBkJBlc2Nzzl5PP4TGDSSgmGz6bP6/T+Hds/ueMwn/nH335Bi2bQsAaOCY7h0AgC+LYAFQg2ABUINgAVCDYAFQg2ABUINgAVDDNd07gBnEsiyHYzp/R2ZkZEzj7Pj6OMNCSpmmaZrmtm2/7O/vN03TsizTNEfGg8HgI49s6+vrM00zHA5blhWJRMyxotHoBSMXb2NZ1vDwcPKW/3jzlZHnTvfR4+siWEi17u7up556+uWXX9q6dcvoYFdXl9frffLJp9auXRMIBEbHl7y1pGBPQSgaGh1pb29vaGg4d+5c8nMbGhq6u7vHne7mtXe9u//9KTgOTAOChVTbvXv31q1b7rvvR4899pvkQRG54471+/Z9tGvXruTtE3bC/7q/YE9B8mBra2tDQ0PyyOnTpy8YGfFELPT8jj9O5gFg+hAspNr27duff35XZ2fns88+Ozq4cePGqqob3nrrbRG5//77k7d/reC18mfKfA9n7dnz6uhgTU1NS0vL4cOHR/6ZnZ3d3NxcVFRUV1c3uk3tpx+98txzL/jLjzY2Tu0hIVUM/vgZKWNZVjgcFpGdO3du2bIlJyfHMAzbtr1er2maBw7U19b+e/Xqb9fULB1ZmzcMIx6PJ7+Cy+WKxWLJI06n84JtDMMYGX+19rXvrdqQ/Fyfzzd1R4cUIFhIHT4lxNdEsACowXVYM8Jw2DZSMpFhiCdj/KlO98rPfhtrPZEQScW+GIaxbKHx4hPOHN4FphGClf4+2D/8Qf1wPP7FqfTCco+/OHMq5krYsqjC6S92XvzQzr/Eu3pjm9cZTiMxFVN/fMgyI+GkAePduuw/7fH8/Md8spQ+CFaaM8P2vkPm4dbk/8lScY3H582IDPVLTt6kL+q0d4bnFDsvPok6E0x8c7mx4bYpCaWIHGo1fb4x6/HnhqxAv5uPwtMJwUpzhiH2uCc0TX9/x7lujeOTf9mZC4O9Ujmvq77n6sK9H0S/v3SwMbt6QU+nc/GqxbO++oy2PcFbPtsQsU998o6sXBF+/81g1fqsppeOZd9TE3vzw9hN67I7OueWuz5J5H132TVffdLxOcWgVumFb+dM4fMarjHnPa5YrC/cNVR0ff9nB89aPUe7DjT1+JfPd7f1F3qCR8+4515JrS4vfm5gqP5ktCRyoranP6On42j7UHS4rfFgU0d86Phw8eTVCumIM6wZYeVip8spCdvY/3ksMvIXdVX33C0iMn+FiDwkIrKoWkREpjgY/ls3+UVkvYicbDLrSsqrck4HXJW3r6zMFhEpn9rZoR3BmhGyPEaGW0KmfcsSl9Mp3kyHzzNVc0ViEz4UMqXtxOjavz9z3iZJiFVyd7Ekj18ht8uIxi+/GVQjWDOCN1M6z9hDIentjzsd8ov73HNLx24R7h+QvNxxF8RjsZjLddkflGg06na7RSR6csJtri2VO29NGIYxFZePNh9zhyzD7Tr/tjcel+OnJn0STDOCNSPUNsRvWuTM8tgdp85fKZxIJI62tYhhVFYucDgO1X44u6aq+Y3/zKrOCElR5qnTHUcOZ9+0PDd3dmGw/njGxtXVl3z93t6enz5w745Hn7yhanHoXGRwMFNEfD6f0+kUkZE7vcQisbAV++crb+/bt/fxJ35fUnKVSPuxd0/uzyook1a7uDgnni+dTa8PLd+xef6VHWZpodPrOX+mFuFeMumIYM0IgyH7vfoxb9UcDsfnRz5zOBwLFlwvIi6XxPv7fCWu5vdPit/bYQ6sWVnYVncyfo01UJpbOsHLjkrEEwcP1u/41cPbtj8+MOy2+t0iEggERs65Eol4fn5BsDt+yoibzpY3Xn81Ly/vd8/8QUSk1yq6quujvoGloa4zUux0LfvOdXOv+DB9XvF5z59hhSOpuVQWKUWw0lwiMeE17hs2bP7fl8tWrRaRq1eLSPmNoxtcf+nTqiQer/fRXz/9wE8e9Hg8HV3hJQsyHMaF0/71vVh5RezmivwVK1auWXuHiIhUlP2wokyk9EjjokVferKJmRFxOAwROdIRD1k2P97ph+9omsvyOJYu9JwOxJLXtLuDMecXlzhMynXnvrs2PdQ7IPG+yFVFrotrNcIKy5yyb/jLje7gmPG82dVdgXGf8RXE4va+gxMv+CMtEKz0t+E237du9KbsDVJ21oQL6p5M8RdP5o6MrvSLiGucq+uRbgjWjJAzcURS7OzZgM+X3Rc8WzrHf+ktv8yHk0fbWoLBQFV1TW5u3uTtI/5/ESyklM+X/bfdL1bOv650jl+k/VjHtV5r73H3wpLBxuCsGm9PSyK/cMDImycdjaGr199YcelXiydiFRULPq37+PZ1d6Zm/zG9CBZSxDDEFsPjydy0+QcFBYUiIhILBZt7IrOD5nsJo9I7eCxQ5Ak3HeovKY05iovyL/+ablfGiRPHVt1y2/gP27Zwt7f0QrCQIlleo+14ors3Ko68nuDINekVRWVSJDJP5rR+emBgdlW4rX3Wynurs84/pfvsZRbRs/PLc4tdQ5YMWbFwdMynBwmRwaEMb+rW7pAK3HEUKdLQbK97MBoanqob+F30g5woKXTv/bOzzE+z0gfBQurE4hLoS9FchiHF+TKtd5DH5CNYANTgFxAANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADUIFgA1CBYANQgWADX+C2yzJmrKhB76AAAAAElFTkSuQmCC"
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="972 65"
+#!   DOC_TOP_LEFT="1000.01 131.877"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="24820"
+#!   FME_BULK_MODE_THRESHOLD="2000"
+#!   FME_DOCUMENT_GUID="be80c5f7-6e00-497a-8f06-35fb88fedf61"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="UTF-8"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2024.2.2.0 (20250114 - Build 24820 - WIN64)"
+#!   LAST_SAVE_DATE="2025-05-18T19:31:04"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="39"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="0 443.754"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME_SRC DATA_FOLDER Data Folder"
+#!   DEFAULT_VALUE=""
+#!   IS_STAND_ALONE="true"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJuYW1lIjoiREFUQV9GT0xERVIiLCJwcm9tcHQiOiJEYXRhIEZvbGRlciIsInNob3dQcm9tcHQiOnRydWUsInZhbHVlVHlwZSI6InN0cmluZyIsInJlcXVpcmVkIjp0cnVlLCJkZWZhdWx0VmFsdWUiOiIiLCJ0eXBlIjoiZmlsZSIsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwiaXRlbXNUb1NlbGVjdCI6ImZvbGRlcnMiLCJhY2Nlc3NNb2RlIjoicmVhZCIsInZhbGlkYXRlRXhpc3RlbmNlIjp0cnVlLCJhbGxvd1VSTCI6ZmFsc2V9XX0="
+#! >
+#! <PARAMETER_INFO>
+#!     <INFO NAME="DATA_FOLDER" 
+#!   DEFAULT_VALUE=""
+#!   SCOPE="STAND_ALONE"
+#!   GENERATED_GUI_LINE="true"
+#!   GUI_LINE="GUI DIRNAME_SRC DATA_FOLDER Data Folder"
+#! />
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="7"
+#!   POSITION="1000.010000100001 196.87696876968769"
+#!   BOUNDING_RECT="1000.010000100001 196.87696876968769 436 65"
+#!   ORDER="500000000000075"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24820"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOJSON" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="Logger"
+#!   VERSION="4"
+#!   POSITION="1536.010000100001 196.87696876968769"
+#!   BOUNDING_RECT="1536.010000100001 196.87696876968769 436 65"
+#!   ORDER="500000000000076"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24820"
+#! >
+#!     <OUTPUT_FEAT NAME="LOGGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="FEATURE_TYPE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LOG_FEATURE" PARM_VALUE="LOG_ONLY"/>
+#!     <XFORM_PARM PARM_NAME="MAXCOORDS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="MAXFEATS" PARM_VALUE="20"/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Feature is:"/>
+#!     <XFORM_PARM PARM_NAME="MSG_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SEVERITY" PARM_VALUE="INFO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Logger"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.050980392156862744,0.050980392156862744,0.047058823529411764,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 39
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+# ============================================================================
+DEFAULT_MACRO DATA_FOLDER 
+
+# ============================================================================
+INCLUDE [ if {{$(DATA_FOLDER$encode)} == {}} { puts_real {Parameter 'DATA_FOLDER' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE MULTI_WRITER
+WRITER_KEYWORD MULTI_DEST
+MULTI_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)$(WORKSPACE_NAME).log"
+LOG_APPEND NO
+LOG_TIMINGS YES
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING UTF-8
+FME_BULK_MODE_THRESHOLD 2000
+LAST_SAVE_BUILD "FME 2024.2.2.0 (20250114 - Build 24820 - WIN64)"
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_GEOJSON NOT_ACTIVATED
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {GeoJSON} } {            puts {MACRO Creator_GEOJSON *} } ]
+FACTORY_DEF {$(Creator_XML)} CreationFactory    FACTORY_NAME { Creator_XML_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>) }
+FACTORY_DEF {$(Creator_GEOJSON)} CreationFactory    FACTORY_NAME { Creator_GEOJSON_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______ 	   @SupplyAttributes(ENCODED,__GeoJSONCreatorTemp__,<Unused>)        @JSONGeometry(FROM_ATTRIBUTE,GEOJSON,__GeoJSONCreatorTemp__, PREFER_ERROR_OVER_REJECTION) 	   @RemoveAttributes(__GeoJSONCreatorTemp__) }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Creator_Cloner }    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES { 1 }    COPY_NUMBER_ATTRIBUTE { "_creation_instance" }    OUTPUT { FEATURE_TYPE Creator_CREATED        fme_feature_type Creator         }
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 4"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+# Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
+INCLUDE [ FME_CleanseFMEUUID {Logger_632ec0f6_2a43_4593_893c_2ed82a7c9fd60} ]
+# If the Logger was in a custom transformer, the custom transformer's name was not being
+# properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
+# message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
+# used in the @Log call via the $encode macro name suffix trick, we get the right result, and the right result
+# safely.
+MACRO LOGGABLE_XFORMER_NAME Logger
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Logger_Logger }    INPUT  FEATURE_TYPE Creator_CREATED    OUTPUT { FEATURE_TYPE Logger_LOGGED                  @Log(ENCODED, "$(LOGGABLE_XFORMER_NAME$encode):<space>Feature is:","20","20","",INFO,LOG_ONLY,$(FME_UUID_SAFE))                   }
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Logger LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Logger_LOGGED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
